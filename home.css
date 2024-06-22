@@ -59,6 +59,7 @@ a{
 
 .content{
     gap: 10px;
+    margin:25px 0px 25px 0px;
     padding: 0px 100px 0px 100px;
     text-align: center;
     display: flex;
@@ -72,6 +73,7 @@ a{
 }
 
 .item{
+    margin:25px 0px 25px 0px;
     padding: 0px 100px 0px 100px;
     display: flex;
     flex-direction: row;
@@ -101,4 +103,63 @@ a{
     color:antiquewhite ;
     border: 1px solid brown;
     background-color: brown;
+}
+
+.content2{
+    margin:25px 0px 25px 0px;
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content2 .img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+/*  */
+.content3{
+    margin:25px 0px 25px 0px;
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.content3 .img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.content3 .img .desc{
+    max-width:300px;
+}
+
+.content4{
+    gap: 10px;
+    margin:25px 0px 25px 0px;
+    padding: 0px 100px 0px 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.content4 .desc{
+    gap: 25px;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+}
+
+.content4 img{
+    max-height: 400px;
+}
+
+.footer{
+    margin:25px 0px 25px 0px;
+    padding: 0px 100px 0px 100px;
+    text-align: center;
 }
